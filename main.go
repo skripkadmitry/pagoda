@@ -1,8 +1,7 @@
-package main
+package pagoda
 
 import (
 	"fmt"
-	"github.com/tobgu/qframe"
 	"strings"
 )
 
@@ -12,6 +11,5 @@ func main() {
 	b,2.25
 	c,3.0`
 
-	f := qframe.ReadCSV(strings.NewReader(input))
-	fmt.Println(f)
+	fmt.Println(input)
 }
