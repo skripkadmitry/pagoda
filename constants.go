@@ -1,4 +1,4 @@
-package main
+package pagoda
 
 //declare NA constants. These are pointers to corresponding type objects
 //they are effectivly constants
